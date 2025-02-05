@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'CRUD',
+    'myapp', # REGISTER THE FOLDER YOU RAN AS STARTAPP NOT STARTPROJECT
 ]
 
 MIDDLEWARE = [
