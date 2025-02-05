@@ -20,7 +20,7 @@ from django.shortcuts import redirect
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', lambda request: redirect('create')),  # Redirect root URL to /create/
-    path('create/', include('myapp.urls')),
+    # path('', lambda request: redirect('create')),  # REMOVE THIS LINE
+    path('', include('myapp.urls')),
 ]
 
